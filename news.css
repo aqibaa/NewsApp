@@ -1,0 +1,119 @@
+* {
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0%;
+}
+
+.purple {
+
+   border: none;
+   color: white;
+}
+
+.purple:hover {
+   background: none;
+   color: rgb(139, 0, 246);
+}
+
+.card {
+   margin-top: 30px;
+   margin-bottom: 25px;
+}
+
+
+.dark-mode {
+   background-color: rgb(28, 27, 27);
+   color: rgb(0, 0, 0);
+
+   .card {
+      background-color: black;
+      color: white;
+   }
+
+   button {
+      background-color: rgb(255, 255, 255);
+      color: black;
+   }
+
+   button:hover {
+      background-color: #3d404b;
+      color: whitesmoke;
+   }
+
+   a {
+      color: aliceblue;
+   }
+
+   .white {
+      color: whitesmoke;
+   }
+
+   .home,
+   .home1 {
+      background-color: rgb(255, 255, 255);
+      color: black;
+   }
+
+
+   .mode {
+      background-color: rgb(255, 255, 255);
+      color: black;
+
+
+   }
+
+   .everything,
+   .everything1 {
+      background-color: rgb(255, 255, 255);
+      color: black;
+   }
+
+   .footer {
+      background-color: #3d404b;
+      color: rgb(0, 0, 0);
+   }
+}
+
+
+.mode:hover {
+
+   color: white;
+}
+
+.footer {
+   background-color: #1c1e23;
+   color: whitesmoke;
+}
+
+
+.back {
+   background-color: rgb(14, 14, 17);
+}
+
+.white {
+   color: black;
+   font-size: 25px;
+   font-weight: 500;
+}
+
+
+
+
+
+@media screen and (max-width:550px) {
+   .small {
+      height: 50px;
+   }
+
+   .white {
+      font-size: 18px;
+      font-weight: 400;
+   }
+
+}
+
+@media screen and (max-width:340px) {
+   svg {
+      display: none;
+   }
+}
