@@ -47,7 +47,7 @@ const names = [
     "Nature",
     "Movies",
     "Marketing",
-    "Hollywood",,"Climate change","Artificial intelligence"
+    "Hollywood","Climate change","Artificial intelligence"
 ];
 // name Selection
 const selectname = (e,names) => {
